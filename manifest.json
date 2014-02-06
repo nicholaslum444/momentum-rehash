@@ -1,0 +1,23 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "momentum.js" ]
+   },
+   "chrome_url_overrides": {
+      "newtab": "dashboard.html"
+   },
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com https://query.yahooapis.com https://php-momentumdash.rhcloud.com 'unsafe-eval'; object-src 'self'",
+   "description": "Replace new tab page with a personal dashboard featuring todo, weather, and inspiration.",
+   "icons": {
+      "128": "icon-128.png",
+      "16": "icon-16.png",
+      "48": "icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2HMTkof+sZOl5exUHXGvHCy02oUh5zVrY+3n3pj3NuuWNk3FpUg+YptRBI0NjRUineTJHzKTTcerOpjKgmnoG8dk+ACJlogCL/Kituf3PKNhskPcxP5Y2laq9MzAvfyItKWZHlBDXqbMaLJthvjMtZyBVD0Z6ZgDud6qBj4pWDKuVQDc3EQ1KJoKfj3+y2mI8w8RR2Ve5GERPYJZuTsW5tvn8+OlBaq/canpKXSIrar66OOcMf1zkPV+UybSGtZnwhRFl5tommwqbYkb4ua2QFzIH0IgyOyHJQW04cKMTS6JqvanEDhG5V1ZOaexP5GZIG4wXMw+GjYawBnzouvPLwIDAQAB",
+   "manifest_version": 2,
+   "name": "Momentum",
+   "offline_enabled": true,
+   "permissions": [ "geolocation", "unlimitedStorage", "*://*.yahooapis.com/*", "*://*.momentumdash.com/*", "topSites","tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.20"
+}
